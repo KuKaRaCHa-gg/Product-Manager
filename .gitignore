@@ -23,3 +23,11 @@
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+
+###> security: never commit env files with real values ###
+.env
+.env.dev
+.env.test
+.env.*.local
+!.env.example
+###< security ###
